@@ -72,9 +72,28 @@
     display: grid;
     grid-auto-flow: column;
 }
-
+#div-cards2{
+    margin-top: 0px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.card2{
+    background-color: #000;
+}
 .card{
     margin-left: 50px;
+}
+.banner{
+    width: 1250px;
+    margin: auto    ;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.flex-center{
+    align-items: center;
 }
 
 #seta-esquerda{
@@ -85,12 +104,20 @@
     display:none;
 }
 
-.seta{
+.seta {
     margin-top: 55%;
     cursor: pointer;
 }
 
+.seta2{
+    cursor: pointer;
+}
+
 .seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+.seta2:hover{
     transform:translateY(-7px);
     transition-duration: 0.5s;
 }
@@ -133,4 +160,12 @@ button:hover{
     transform: translateY(-7px);
     box-shadow: 0px 15px 20px #05103081;
     transition-duration: 0.5s;
+}
+
+.ml-1{
+    margin-left: 10px;
+}
+
+.mr-1{
+    margin-right: 10px;
 }
