@@ -96,7 +96,7 @@
     align-items: center;
 }
 
-#seta-esquerda{
+#seta-esquerda , #seta-esquerda2{
     display: none;
 }
 

@@ -6,6 +6,9 @@ var setaEsquerda = window.document.getElementById("seta-esquerda")
 
 var banner1 = window.document.getElementById("banner1")
 var banner2 = window.document.getElementById("banner2")
+var setaDireita2 = window.document.getElementById("seta-direita2")
+var setaEsquerda2 = window.document.getElementById("seta-esquerda2")
+
 
 function RolarParaDireita() {
     Leonardo.style = "display:none"
@@ -26,14 +29,15 @@ function RolarParaEsquerda() {
 function RolarParaDireita2() {
     banner1.style = "display:none"
     banner2.style = "display:flex"
-    setaDireita.style = "display:none"
-    setaEsquerda.style = "display:flex;"
+    setaDireita2.style = "display:none"
+    setaEsquerda2.style = "display:flex;"
 }
 
 function RolarParaEsquerda2() {
     
     banner1.style = "display:flex"
     banner2.style = "display:none"
-    setaDireita.style = "display:flex;"
-    setaEsquerda.style = "display:none"
+    setaDireita2.style = "display:flex;"
+    setaEsquerda2.style = "display:none"
 }
+
